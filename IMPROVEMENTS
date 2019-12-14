@@ -1,0 +1,4 @@
+client/IDataSource.h:
+    std::vector<char> -> std::vector<byte>
+
+client/DemoSimulator.h:

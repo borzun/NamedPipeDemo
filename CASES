@@ -1,0 +1,16 @@
+1. Client should wait till pipe will be created by server;
+2. Server should wait till there are will be some client pipes;
+3. Client should send some data to the server from console.
+4. Server should process several clients;
+5. Server should close all client pipe instances on exit.
+6. Sycnhronized std::cout / std::cerr;
+7. Synchronized ClassRegistry
+7. Synchronized ClassRepository
+
+Classes:
+
+client: Pipe, ConsoleReader -> DataSource, Client class???
+server -> ReceivingPipe, Server class ??, DataWritter??
+
+
+async client - https://docs.microsoft.com/en-us/windows/win32/ipc/synchronous-and-overlapped-input-and-output?redirectedfrom=MSDN
