@@ -40,7 +40,7 @@ int main(int argc, char** argv) {
   }
 
   auto parser = std::make_shared<ResponseParser>();
-  const int kStepsCount = 10000;  // Number of steps to execute
+  const int kStepsCount = 512;  // Number of steps to execute
   auto data_source = std::make_shared<DemoSimulator>(simulation_mode, kStepsCount);
 
   const std::string pipe_name = "\\\\.\\pipe\\demo_pipe";
