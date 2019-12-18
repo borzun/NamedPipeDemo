@@ -38,7 +38,11 @@ After you built both `NamedPipeClient` and `NamedPipeServer`, in order to run th
 
 When you started the `NamedPipeClient`, it prompts you to choose either sync or async version of the client. Note that after you have chosen a version, you can't change your decision after that:
 
+![dialog #1](https://github.com/borzun/NamedPipeDemo/blob/master/resources/dialog1.png)
+
 After that, the program prompts you to select the simulation mode - i.e. which way to generate the data for the server. Here are the possible modes:
 * *step by step* (0) - the simulator will automatically choose the demo data sequentially; there is a small timeout between each request;
 * *randomly* (1) - the simulator will choose the demo randomly; there is a small timeout between each request;
 * *manually* (2) - user selects demo which will be run next.
+
+![dialog #2](https://github.com/borzun/NamedPipeDemo/blob/master/resources/dialog1.png)
