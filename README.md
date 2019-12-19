@@ -1,5 +1,3 @@
-NamedPipeDemo
-
 # Overview
 
 This is the demo of the home assignment regarding server-client IPC via NamedPipe (`StreamBase` application - not sure whether I allowed posting a link to the assignment here). This implementation uses the WinAPI implementation of NamedPipe: https://docs.microsoft.com/en-us/windows/win32/ipc/named-pipes.
