@@ -22,7 +22,7 @@ cmake ../NamedPipeDemo -G "Visual Studio 15 2017"
 ```
 
 ## Deviations from requirements
-As stated in the (overview section)[#overview], I might be interpreted original requirements of `StreamBase` in a different way:
+As stated in the [overview section](#overview), I might be interpreted original requirements of `StreamBase` in a different way:
 * REQ-5:
     > The server should be able to receive both sync/async connection requests from client
     >
@@ -30,7 +30,7 @@ As stated in the (overview section)[#overview], I might be interpreted original 
 * REQ-7:
     > The server should be able to register a custom class (w/ related functions, attributes) which can be used by the client (see req-4)
     >
-    I used the already defined class, which is accessible by both `server` and `client` - see (CustomClass section)[#customclass]. I thought about passing a custom class as a JSON for example, or just simple string, which contains a list of methods signatures and attributes, but in that case it is needed to implement some kind of a reflection, which is a bit hard for C++. Also, I couldn't find a way to simulate RPC, i.e. pass executable code via named pipe.
+    I used the already defined class, which is accessible by both `server` and `client` - see [CustomClass section](#customclass). I thought about passing a custom class as a JSON for example, or just simple string, which contains a list of methods signatures and attributes, but in that case it is needed to implement some kind of a reflection, which is a bit hard for C++. Also, I couldn't find a way to simulate RPC, i.e. pass executable code via named pipe.
 
 ## Architecture
 The source code of this repository is divided into 3 submodules:
